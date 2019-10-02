@@ -3,20 +3,9 @@ package academy.learnprogramming;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-<<<<<<< HEAD
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter your year of birth: ");
-        int yearOfBirth = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("Enter your name");
-        String name = scanner.nextLine();
-        int age = 2019 - yearOfBirth;
-        System.out.println("Your name is " + name + ", and your are " + age + " years old");
-=======
-        numberToWords(10);
->>>>>>> 361e7616f5aace1e44403723cb3d6beede314da9
+    	Outlander outlander = new Outlander(36);
+    	outlander.accelerate(30);
     }
-
 }
