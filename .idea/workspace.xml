@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfeb673c-8973-4c85-8b38-96a3c48fb007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Outlander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/GroceryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/academy/learnprogramming/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Outlander.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Outlander.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Vehicle.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
