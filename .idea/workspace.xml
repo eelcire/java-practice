@@ -1,52 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfeb673c-8973-4c85-8b38-96a3c48fb007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Contacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Phone.java" afterDir="false" />
+    <list default="true" id="c7abd8a2-80d1-49e0-85af-b8052684e7de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/GroceryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/academy/learnprogramming/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1RZ2OYdfj7TVSRFWc9PESdrxiR2" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectId" id="1ROz0gI1I6Bff8ZEg1ltgk8jwV0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="restartRequiresConfirmation" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.Main" />
-      <module name="java-practice" />
+      <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -60,16 +45,28 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfeb673c-8973-4c85-8b38-96a3c48fb007" name="Default Changelist" comment="" />
-      <created>1569860265178</created>
+      <changelist id="c7abd8a2-80d1-49e0-85af-b8052684e7de" name="Default Changelist" comment="" />
+      <created>1569552708484</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569860265178</updated>
+      <updated>1569552708484</updated>
     </task>
     <servers />
   </component>
@@ -85,5 +82,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="620" height="191" key="GridCell.Tab.0.bottom" timestamp="1575136752720">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="620" height="191" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1575136752720" />
+    <state width="620" height="191" key="GridCell.Tab.0.center" timestamp="1575136752718">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="620" height="191" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1575136752718" />
+    <state width="620" height="191" key="GridCell.Tab.0.left" timestamp="1575136752718">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="620" height="191" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1575136752718" />
+    <state width="620" height="191" key="GridCell.Tab.0.right" timestamp="1575136752718">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="620" height="191" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1575136752718" />
+    <state x="62" y="146" key="MultipleFileMergeDialog" timestamp="1575136792047">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="62" y="146" key="MultipleFileMergeDialog/0.23.1440.801@0.23.1440.801" timestamp="1575136792047" />
+    <state x="134" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575136781966">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="134" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.801@0.23.1440.801" timestamp="1575136781966" />
   </component>
 </project>

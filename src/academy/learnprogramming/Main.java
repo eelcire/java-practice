@@ -1,53 +1,58 @@
 package academy.learnprogramming;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
+class IntClass {
+    private int myValue;
+
+    public IntClass(int myValue) {
+        this.myValue = myValue;
+    }
+
+    public int getMyValue() {
+        return myValue;
+    }
+
+    public void setMyValue(int myValue) {
+        this.myValue = myValue;
+    }
+}
 
 public class Main {
 
-    private static Scanner scanner = new Scanner(System.in);
-    private static Phone phone = new phone("0039 330 4404");
 
     public static void main(String[] args) {
-        boolean quit = false;
-        startPhone();
-        printActions();
-        while (!quit) {
-            System.out.println("\nEnter action: (6 to show available actions)");
-            int action = scanner.nextInt();
-            scanner.nextLine();
+        String[] strArray = new String[10];
+        int[] intArray = new int[10];
 
-            switch (action) {
-                case 0:
-                    System.out.println("\nShutting down");
-                    quit = true;
-                    break;
-                case 1:
-                    printContacts();
-                    break;
-            }
+        ArrayList<String> strArrayList = new ArrayList<String>();
+        strArrayList.add("Tim");
+
+        ArrayList<IntClass> intClassArrayList = new ArrayList<IntClass>();
+        intClassArrayList.add(new IntClass(54));
+
+        Integer integer = new Integer(54);
+        Double doubleValue = 12.25;
+
+        ArrayList<Integer> intArrayList = new ArrayList<Integer>();
+        for (int i = 0; i<= 10; i++) {
+            intArrayList.add(i);
         }
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i + " --> " + intArrayList.get(i));
+        }
+
+        Integer myIntValue = 56;
+        int myInt = myIntValue;
+
+        ArrayList<Double> myDoubleValues = new ArrayList<Double>();
+        for (double dbl = 0; dbl <= 10.0; dbl += 0.5) {
+            myDoubleValues.add(dbl);
+        }
+        for (int i = 0; i < myDoubleValues.size(); i++) {
+            double value = myDoubleValues.get(i);
+            System.out.println(i + " --> " + value);
+        }
+
     }
-
-    private static void printContacts() {
-        phone.printContacts();
-    }
-
-    public static void startPhone() {
-        System.out.println("Starting phone...");
-    }
-
-    public static void printActions() {
-        System.out.println("\nAvailable actions:\npress");
-        System.out.println("0 - to shutdown\n" +
-                            "1 - to print contacts\n" +
-                            "2 - to add a new contact\n" +
-                            "3 - to update an existing contact\n" +
-                            "4 - to remove an existing contact\n" +
-                            "5 - to query if an existing contact exists\n" +
-                            "6 - to print a list of available actions.");
-        System.out.println("Choose your action: ");
-    }
-
-
 }
