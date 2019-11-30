@@ -2,57 +2,45 @@ package academy.learnprogramming;
 
 import java.util.ArrayList;
 
-class IntClass {
-    private int myValue;
-
-    public IntClass(int myValue) {
-        this.myValue = myValue;
-    }
-
-    public int getMyValue() {
-        return myValue;
-    }
-
-    public void setMyValue(int myValue) {
-        this.myValue = myValue;
-    }
-}
-
 public class Main {
 
-
     public static void main(String[] args) {
-        String[] strArray = new String[10];
-        int[] intArray = new int[10];
+        Bank bank = new Bank("National Australia Bank");
 
-        ArrayList<String> strArrayList = new ArrayList<String>();
-        strArrayList.add("Tim");
+        if (bank.addBranch("Adelaide")) {
+            System.out.println("Adelaide branch created");
+        };
 
-        ArrayList<IntClass> intClassArrayList = new ArrayList<IntClass>();
-        intClassArrayList.add(new IntClass(54));
+        bank.addCustomer("Adelaide", "Tim", 50.05);
+        bank.addCustomer("Adelaide", "Mike", 175.34);
+        bank.addCustomer("Adelaide", "Percy", 200.12);
 
-        Integer integer = new Integer(54);
-        Double doubleValue = 12.25;
+        bank.addBranch("Sydney");
+        bank.addCustomer("Sydney", "Bob", 150.54);
 
-        ArrayList<Integer> intArrayList = new ArrayList<Integer>();
-        for (int i = 0; i<= 10; i++) {
-            intArrayList.add(i);
-        }
-        for (int i = 0; i <= 10; i++) {
-            System.out.println(i + " --> " + intArrayList.get(i));
-        }
+        bank.addCustomerTransaction("Adelaide", "Tim", 44.22);
+        bank.addCustomerTransaction("Adelaide", "Tim", 12.44);
+        bank.addCustomerTransaction("Adelaide", "Mike", 1.65);
 
-        Integer myIntValue = 56;
-        int myInt = myIntValue;
+        bank.listCustomers("Adelaide", true);
+        bank.listCustomers("Sydney", true);
 
-        ArrayList<Double> myDoubleValues = new ArrayList<Double>();
-        for (double dbl = 0; dbl <= 10.0; dbl += 0.5) {
-            myDoubleValues.add(dbl);
-        }
-        for (int i = 0; i < myDoubleValues.size(); i++) {
-            double value = myDoubleValues.get(i);
-            System.out.println(i + " --> " + value);
+        bank.addBranch("Melbourne");
+
+        if (!bank.addCustomer("Melbourne", "Brian", 5.53)) {
+            System.out.println("Error Melbourne branch does not exist");
         }
 
+        if (!bank.addBranch("Adelaide")) {
+            System.out.println("Adelaide branch already exists");
+        }
+
+        if (!bank.addCustomerTransaction("Adelaide", "Fergus", 52.33)) {
+            System.out.println("Customer does not exist at branch");
+        }
+
+        if (!bank.addCustomer("Adelaide", "Tim", 12.21)) {
+            System.out.println("Customer Tim already exists");
+        }
     }
 }
