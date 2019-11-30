@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7abd8a2-80d1-49e0-85af-b8052684e7de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Branch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/academy/learnprogramming/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/META-INF/java-practice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/academy/learnprogramming/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Contacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Phone.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c7abd8a2-80d1-49e0-85af-b8052684e7de" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575136824220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Autoboxing and Unboxing Challenge">
+      <created>1575156842053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575156842053</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Autoboxing and Unboxing Challenge">
+      <created>1575157019064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575157019064</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Autoboxing and Unboxing Challenge">
+      <created>1575157024382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575157024382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Autoboxing and Unboxing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autoboxing and Unboxing" />
+    <MESSAGE value="Autoboxing and Unboxing Challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autoboxing and Unboxing Challenge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="27" y="88" key="#Main" timestamp="1575144826381">
@@ -175,10 +185,10 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="89" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1575144536968" />
-    <state x="0" y="3" key="CommitChangelistDialog2" timestamp="1575157018787">
+    <state x="0" y="3" key="CommitChangelistDialog2" timestamp="1575157024219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="3" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575157018787" />
+    <state x="0" y="3" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575157024219" />
     <state x="0" y="26" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1575156822185" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1575157015207">
       <screen x="0" y="0" width="1440" height="900" />
